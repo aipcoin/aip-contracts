@@ -1,0 +1,3 @@
+# Preserve exact source bytes (no EOL conversion) so that byte-for-byte
+# recompilation of the published sources matches the deployed bytecode.
+*.sol -text
